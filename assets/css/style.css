@@ -1,0 +1,221 @@
+/**
+ * Author: Alfie Besin | alfiebesin.com
+ * Version: 1.0.0 | 20140422
+ * License: none (public domain);
+ */
+
+
+/**
+ * Bootstrap Overwrites
+ */
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 0px;
+	border-color: #2980b9;
+}
+.navbar-default {
+	background-color: #2980b9;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: #2980b9;	
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: #fff;
+}
+.navbar .nav-contact {
+	margin-top: 12px;
+}
+
+/**
+ * Header Styles
+ */
+.navbar-default .navbar-nav>li>a {
+	color: #a6c5f2;
+	font-size: 14px;
+	font-family: 'Raleway', 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+.main-content {
+	padding: 30px 0;
+	background-color: #3498db;
+	border-bottom: 6px solid #96b346;
+}
+.main-content h1.tagline {
+	font-family: 'Raleway', 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-size: 56px;
+	font-weight: normal;
+	text-align: center;
+}
+.main-content h3.sub-tagline {
+	color: #fff;
+	text-align: center;
+	font-family: 'Raleway', 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+.main-content .container-cta {
+	text-align: center;
+	margin: 4% 0 0 0;
+}
+.main-content .btn-cta-main {
+	width: 185px;
+}
+.main-content .btn-cta {
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+.main-content .container-cta .cta-separator {
+	color: #fff;
+}
+
+/**
+ * Portofolio
+ */
+#portfolio {
+	background-color: #f3f3f3;
+}
+#portfolio .portfolio-img {
+	cursor: -webkit-zoom-in;
+	cursor: -moz-zoom-in;
+	cursor: zoom-in;
+}
+#portfolio .portofolio-project {
+	margin-bottom: 20px;
+}
+#portfolio .heading-2 {
+	margin-left: 20px;
+	margin-bottom: 25px;
+	text-transform: lowercase;
+}
+#portfolio .project-name {
+	font-size: 22px;
+}
+#portfolio .project-inv {
+	font-size: 18px;
+}
+
+/**
+ * Buttons
+ */
+.abtn-cta-primary {
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	color: #fff;
+}
+.abtn-cta-primary:hover, .abtn-cta-primary:focus {
+	color: #fff;
+}
+.acta-lg {
+	padding: 14px 40px;
+}
+.acta-sm {
+	padding: 2px 10px !important;
+}
+.cta-divider {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	margin: 0 0 0 20px;
+	position: relative;
+	top: 2px;
+}
+.abtn-cta-secondary {
+	text-transform: uppercase;
+	color: #fff;
+}
+.abtn-cta-secondary:hover, .abtn-cta-secondary:focus {
+	color: #fff;
+}
+
+/**
+ * Footer
+ */
+#footer {
+	background-color: #2980b9;
+	color: #fff;
+	padding: 10px 0;
+}
+#footer a {
+	color: #fff;
+	text-decoration: underline;	
+}
+#footer p {
+	line-height: 5px;
+	text-align: center;
+}
+
+/**
+ * Magnific Popup Css Addons
+ */
+ /* overlay at start */
+ .mfp-fade.mfp-bg {
+   opacity: 0;
+
+   -webkit-transition: all 0.15s ease-out;
+   -moz-transition: all 0.15s ease-out;
+   transition: all 0.15s ease-out;
+ }
+ /* overlay animate in */
+ .mfp-fade.mfp-bg.mfp-ready {
+   opacity: 0.8;
+ }
+ /* overlay animate out */
+ .mfp-fade.mfp-bg.mfp-removing {
+   opacity: 0;
+ }
+
+ /* content at start */
+ .mfp-fade.mfp-wrap .mfp-content {
+   opacity: 0;
+
+   -webkit-transition: all 0.15s ease-out;
+   -moz-transition: all 0.15s ease-out;
+   transition: all 0.15s ease-out;
+ }
+ /* content animate it */
+ .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+   opacity: 1;
+ }
+ /* content animate out */
+ .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+   opacity: 0;
+ }
+
+ /* padding-bottom and top for image */
+     .mfp-no-margins img.mfp-img {
+       padding: 0;
+     }
+     /* position of shadow behind the image */
+     .mfp-no-margins .mfp-figure:after {
+       top: 0;
+       bottom: 0;
+     }
+     /* padding for main container */
+     .mfp-no-margins .mfp-container {
+       padding: 0;
+     }
+ .mfp-with-zoom .mfp-container,
+     .mfp-with-zoom.mfp-bg {
+       opacity: 0.001; /* chrome opacity transition bug */
+       -webkit-backface-visibility: hidden;
+       -webkit-transition: all 0.3s ease-out; 
+       -moz-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+       transition: all 0.3s ease-out;
+     }
+     
+     .mfp-with-zoom.mfp-ready .mfp-container {
+         opacity: 1;
+     }
+     .mfp-with-zoom.mfp-ready.mfp-bg {
+         opacity: 0.8;
+     }
+     
+     .mfp-with-zoom.mfp-removing .mfp-container, 
+     .mfp-with-zoom.mfp-removing.mfp-bg {
+       opacity: 0;
+     }
+
