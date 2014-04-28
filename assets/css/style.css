@@ -102,7 +102,6 @@
  */
 .abtn-cta-primary {
 	border: 2px solid #fff;
-	text-transform: uppercase;
 	color: #fff;
 }
 .abtn-cta-primary:hover, .abtn-cta-primary:focus {
