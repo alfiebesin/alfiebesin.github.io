@@ -55,21 +55,6 @@
 	font-family: 'Raleway', 'Helvetica Nueue', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 }
-.main-content .container-cta {
-	text-align: center;
-	margin: 4% 0 0 0;
-}
-.main-content .btn-cta-main {
-	width: 185px;
-}
-.main-content .btn-cta {
-	text-align: center;
-	display: inline-block;
-	margin: 0 auto;
-}
-.main-content .container-cta .cta-separator {
-	color: #fff;
-}
 
 /**
  * Portofolio
